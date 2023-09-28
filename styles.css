@@ -1,0 +1,340 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0px;
+}
+
+.navi ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: black;
+}
+
+.navi li {
+   float: left;
+}
+.navi li2 {
+   float: right;
+}
+.navi clock2 {
+   display: inline-block;
+   color: white;
+   text-align: center;
+   padding: 17px 16px;
+   color: black;
+   background: white;
+   border-radius: 60px;
+   border: 1.5px solid black;
+   text-decoration: none;
+   font-family: Monospace;
+}
+.navi li {
+   display: inline-block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+.navi li2 {
+   display: inline-block;
+   color: white;
+   text-align: center;
+   padding: 20px 10px;
+   text-decoration: none;
+   font-family: Monospace;
+   font-size: 13px;
+}
+.navi li {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.home {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #222;
+}
+.home h1 {
+    font-size: 30px;
+}
+.home .description {
+    font-family: monospace;
+    line-height: 22px;
+    font-size: 18px;
+    width: 370px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.home .description a {
+    text-decoration: none;
+    color: #111;
+    text-style: bold;
+}
+.home hr {
+  border-top: 1px dashed gray;
+}
+.home button {
+  display: inline-block;
+  background: black;
+  color: white;
+  font-size: 15px;
+  padding: 8px 25px;
+  margin-top: 2px;
+  font-weight: 400;
+  border-radius: 0px;
+  border: 2px solid black;
+  transition: all 0.3s ease;
+}
+.home .description .clock {
+    color: #000000;
+    font-size: 14px;
+    padding-top: 5px;
+}
+.home .description .countdown {
+    color: #000000;
+    font-size: 14px;
+    padding-top: 5px;
+}
+.home .quote {
+    padding-top: 20px;
+}
+.home .quote blockquote p {
+    font-family: Monospace;
+    padding: 8px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
+.home .quote blockquote a {
+    font-family: Monospace;
+    padding: 10px;
+    color: black;
+    border-radius: 0px;
+}
+.home .desc {
+    font-family: monospace;
+    line-height: 22px;
+    font-size: 18px;
+    width: 370px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.home table {
+   font-family: Monospace;
+   margin-top: 20px;
+}
+.home td {
+   width: 100px;
+   border-bottom: 1px dashed gray;
+}
+.home h3 {
+   float: left;
+   font-family: Monospace;
+   margin-right: 80px;
+}
+
+.center {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0px;
+    width: 100%;
+    color: #222;
+    z-index: 1;
+    padding-top: 150px;
+}
+
+.center h1 {
+    font-size: 4rem;
+}
+.center h2 {
+    color: red;
+}
+
+.center .description {
+    font-family: monospace;
+    line-height: 22px;
+    font-size: 18px;
+    width: 370px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.center .description a {
+    text-decoration: none;
+    color: #111;
+    text-style: bold;
+}
+
+.select {
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+}
+
+select {
+    transition: background-color 200ms ease;
+    font-size: 14px;
+    padding: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-family: monospace;
+    padding-right: 30px;
+    position: relative;
+    outline: 0px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.select:after {
+    content: "▼";
+    padding: 14px 8px;
+    position: absolute;
+    right: 13px;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+    width: 10%;
+    height: 100%;
+    pointer-events: none;
+    box-sizing: border-box;
+    font-size: 9px;
+}
+
+button {
+    transition: background-color 200ms ease;
+    font-size: 14px;
+    padding: 10px 12px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    background: #fff;
+    font-family: monospace;
+    cursor: pointer;
+    outline: 0px;
+}
+
+button:hover,
+select:hover {
+    background-color: #eee;
+}
+
+.center .links {
+    padding-top: 10px;
+    font-family: monospace;
+    letter-spacing: 0.3px;
+    font-size: 14px;
+}
+
+.center .links a {
+    text-decoration: none;
+    margin-left: 0px;
+    margin-right: 100px;
+    color: #111;
+}
+
+.center .links a:hover {
+    text-decoration: underline;
+}
+
+.center .grid {
+  display: grid;
+  column-gap: 50px;
+}
+.center .description hr {
+  border-top: 1px dashed gray;
+}
+.center .grid hr {
+  border-top: 1px dashed gray;
+}
+.center .grid-item {
+  font-family: monospace;
+  letter-spacing: 0.3px;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+.center .grid-item span {
+    color: crimson;
+    text-decoration: none;
+}
+.center .grid-item a {
+  float: left;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #111;
+}
+.center .grid-item button {
+  display: inline-block;
+  background: black;
+  color: white;
+  font-size: 15px;
+  padding: 8px 25px;
+  margin-top: 2px;
+  font-weight: 400;
+  border-radius: 0px;
+  border: 2px solid black;
+  transition: all 0.3s ease;
+}
+
+footer{
+    font-family: monospace;
+    color: #000;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+iframe {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 900px) {
+    .center h1 {
+        font-size: 50px;
+    }
+    .center .links a,
+    .center .links iframe {
+        display: block;
+        margin: auto;
+        margin-bottom: 12px;
+    }
+    .divider {
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .center h1 {
+        font-size: 26px;
+    }
+    .center .description {
+        font-size: 14px;
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+        box-sizing: border-box;
+    }
+    .center .desc {
+        font-size: 14px;
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+        box-sizing: border-box;
+    }
+}
